@@ -8,20 +8,20 @@ function App() {
     <div className="flex justify-center items-center relative mb-16 bg-theme-purple">
       <img className="object-fill" src="images/home-image.jpeg" alt=""/>
       <div className='bg-white w-[45%] h-20 absolute -translate-y-32 rounded-xl flex items-center justify-center'>
-           <p className='text-5xl font-bold text-black'> Find Your New Roommate Today!</p>
+           <p className='text-4xl font-bold text-black'> Find Your New Roommate Today!</p>
       </div>
       <div className='absolute w-2/3 t-1/2 translate-y-1/2 translate-x-1/5 rounded-3xl bg-white focus:outline-none'>
         <CollegeSearch/>
       </div>
     </div>
     <h1 className='text-center text-4xl pt-5 m-12 font-bold'> Helping CSU and UC students find their perfect roommate.</h1>
-    <div className='grid grid-cols-5 gap-x-10 mb-24 px-30'>
+    <div className='grid grid-cols-5 gap-x-10 mb-24'>
       <div className='flex items-center justify-end text-3xl'>
         <button className='h-16 w-12 bg-gray-300 font-bold'>&lt;</button>
       </div>
 
       <div className='flex flex-col w-full rounded-xl bg-theme-purple'>
-        <div className='flex justify-center px-5 pt-5 w-full h-80'>
+        <div className='flex justify-center px-5 pt-5 w-full '>
           <img className='rounded-xl' src="images/girl.png" alt="" />
         </div>
 
@@ -33,7 +33,7 @@ function App() {
       </div>
 
       <div className='flex flex-col w-full rounded-xl bg-theme-purple'>
-        <div className='flex justify-center px-5 pt-5 w-full h-80'>
+        <div className='flex justify-center px-5 pt-5 w-full '>
           <img className='rounded-xl' src="images/girl.png" alt="" />
         </div>
 
@@ -45,7 +45,7 @@ function App() {
       </div>
 
       <div className='flex flex-col w-full rounded-xl bg-theme-purple'>
-        <div className='flex justify-center px-5 pt-5 w-full h-80'>
+        <div className='flex justify-center px-5 pt-5 w-full '>
           <img className='rounded-xl' src="images/girl.png" alt="" />
         </div>
 
@@ -72,17 +72,13 @@ function App() {
       <div className='flex flex-col items-center h-100 w-100 overflow-hidden'>
         <p className='flex justify-center font-semibold lg:text-4xl pb-2 md:text-3xl sm:text-2xl mt-6'>Advertise your open rooms</p>
         <p className='flex justify-center text-center w-3/4 m-5 lg:text-lg md:text-sm sm:text-xs'>Streamline your search for the best tenant by becoming a verified host. Never be uncertain again.</p>
-        <img className='flex justify-center rounded-xl drop-shadow-xl h-full w-full object-fit' src="images/lazy.jpg" alt="" />
+        <img className='flex justify-center rounded-xl drop-shadow-xl h-full w-full object-fit mt-8' src="images/lazy.jpg" alt="" />
       </div>
 
       <div className='flex flex-col items-center h-100 w-100 overflow-hidden'>
-        <p className='flex justify-center font-semibold lg:text-4xl pb-2 md:text-3xl sm:text-2xl mt-6'>We care about YOU</p>
-  
+        <p className='flex justify-center font-semibold lg:text-4xl pb-2 md:text-3xl sm:text-2xl mt-6'>We care about<br></br>YOU</p>
         <p className='flex justify-center text-center w-3/4 m-5 lg:text-lg md:text-sm sm:text-xs'>Made by college students, for college students. Finding roommates on your terms has never been simpler.</p>
-
-        <div className='flex justify-center items-center h-100 w-100 overflow-hidden'>
-          <img className='flex justify-center rounded-xl drop-shadow-xl h-full w-full object-fit' src="images/students.jpg" alt="" />
-        </div> 
+          <img className='flex justify-center rounded-xl drop-shadow-xl h-full w-full object-fit mt-8' src="images/students.jpg" alt="" />
       </div>
     </div>
 
