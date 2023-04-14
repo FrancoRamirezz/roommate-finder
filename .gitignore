@@ -19,6 +19,7 @@
 .env.production.local
 
 roommate-finder.session.sql
+test.session.sql
 .vscode
 
 npm-debug.log*
