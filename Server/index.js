@@ -10,10 +10,10 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.json({ limit: '50mb' }));
 
 const db = mysql.createConnection({
-    host: "sql9.freesqldatabase.com",
-    user: "sql9610342",
-    password: "QEcv7vMsNU",
-    database:"sql9610342" 
+    host: "localhost",
+    user: "gasoto",
+    password: "1228",
+    database:"roommate_finder" 
 })
 
 module.exports = db;
